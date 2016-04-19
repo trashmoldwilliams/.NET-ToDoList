@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebApplication1.Models
+namespace ToDoList.Models
 {
     [Table("Items")]
     public class Item
@@ -13,5 +13,7 @@ namespace WebApplication1.Models
         [Key]
         public int ItemId { get; set; }
         public string Description { get; set; }
+        public int CategoryId { get; set; }
+        public virtual Category Category { get; set; }
     }
 }

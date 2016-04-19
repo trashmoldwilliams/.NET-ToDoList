@@ -6,7 +6,7 @@ using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting;
 using Microsoft.AspNet.Http;
 using Microsoft.Extensions.DependencyInjection;
-using WebApplication1.Models;
+using ToDoList.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Data.Entity;
 

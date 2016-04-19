@@ -3,7 +3,7 @@
 *@
 @{
 }
-@model WebApplication1.Models.Item
+@model ToDoList.Models.Item
 
 <html>
 <head>
@@ -18,6 +18,6 @@
     {
         <input type="submit" value="Delete" />
     }
-    @Html.ActionLink("Back to List", "Index")
+    <p>@Html.ActionLink("Back to list", "Index")</p>
 </body>
 </html>
